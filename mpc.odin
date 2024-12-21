@@ -44,7 +44,7 @@ foreign lib {
 // mpc_result_t
 Result :: struct #raw_union {
 	error:   ^Error,
-	outpout: rawptr,
+	output: rawptr,
 }
 
 
